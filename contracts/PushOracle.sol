@@ -5,7 +5,7 @@ import "./ISupraSValueFeed.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 
 
-contract Oracle is  Ownable {
+contract PushOracle is  Ownable {
 
 ISupraSValueFeed internal sValueFeed;
 
